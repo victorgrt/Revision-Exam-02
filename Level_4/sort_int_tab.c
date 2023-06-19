@@ -6,7 +6,7 @@
 /*   By: vgoret <vgoret@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/01 15:19:34 by vgoret            #+#    #+#             */
-/*   Updated: 2023/06/01 15:38:10 by vgoret           ###   ########.fr       */
+/*   Updated: 2023/06/19 15:02:29 by vgoret           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@ void	sort_int_tab(int *tab, unsigned int size)
 {
 	unsigned int	i = 0;
 	int	temp = 0;
-
 	while (i < size - 1)
 	{
 		if (tab[i] > tab[i + 1])
